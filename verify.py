@@ -1,18 +1,6 @@
 #!/usr/bin/env python3
-"""Independent verifier for the certificate directory.
-
-Checks, from the raw data files only (never trusting package scripts):
-  1. 108 distinct points in Q(sqrt5)^3, coords (A+B*sqrt5)/120.
-  2. Exact unit-distance pairs == edge list exactly (both directions).
-  3. No K4 (tetrahedron-free); count triangles.
-  4. Supplied 6-coloring is proper with colors in 0..5.
-  5. five.cnf contains ONLY sound clauses for 5-colorability of this graph:
-     ALO per vertex, AMO pairs, genuine edge conflicts, and unit clauses that
-     fix a real triangle to three distinct colors (WLOG symmetry breaking).
-  6. Vertex-criticality witnesses: for every vertex v, a proper 5-coloring of
-     the graph minus v.
-RUP proof check is done separately.
-"""
+# checks the graph data from scratch: geometry, K4-freeness, colorings,
+# cnf encoding and the deletion witnesses. usage: python3 verify.py <dir>
 import json, sys, itertools
 from collections import defaultdict
 
@@ -21,7 +9,7 @@ cert = sys.argv[1].rstrip('/')
 def fail(msg):
     print("FAIL:", msg); sys.exit(1)
 
-# --- 1. coordinates ---
+# coordinates
 pts = {}
 with open(cert + "/coordinates_integer120.txt") as f:
     for line in f:
@@ -37,8 +25,7 @@ if n != 108: fail(f"expected 108 vertices, got {n}")
 if sorted(pts) != list(range(108)): fail("vertex ids not 0..107")
 if len(set(pts.values())) != 108: fail("coordinate tuples not distinct")
 
-# distinctness in the field: (A+B*sqrt5) equal iff A,B equal since sqrt5 irrational -> tuple check suffices
-# --- 2. exact unit distances ---
+# unit distances, exact
 edges_geom = set()
 for u, v in itertools.combinations(range(108), 2):
     a, b = pts[u], pts[v]
@@ -67,7 +54,7 @@ adj = defaultdict(set)
 for u, v in edges_file:
     adj[u].add(v); adj[v].add(u)
 
-# --- 3. triangles and K4 ---
+# triangles and K4
 tris = []
 for u, v in sorted(edges_file):
     for w in sorted(adj[u] & adj[v]):
@@ -82,7 +69,7 @@ for u, v in sorted(edges_file):
 if nk4: fail(f"found {nk4} K4 witnesses")
 print(f"OK clique structure: {len(tris)} triangles, zero K4")
 
-# --- 4. six coloring ---
+# six coloring
 with open(cert + "/six_coloring.txt") as f:
     col6 = list(map(int, f.read().split()))
 if len(col6) != 108: fail("six coloring wrong length")
@@ -91,8 +78,7 @@ mono = [(u, v) for u, v in edges_file if col6[u] == col6[v]]
 if mono: fail(f"six coloring improper on {len(mono)} edges")
 print(f"OK six-coloring: proper, uses {len(set(col6))} colors")
 
-# --- 5. CNF soundness ---
-# var mapping inferred: try var = 5*v + c + 1
+# cnf soundness
 clauses = []
 nvars = None
 with open(cert + "/proof/five.cnf") as f:
@@ -135,7 +121,7 @@ for cl in clauses:
     else:
         fail(f"unexpected clause shape {cl}")
 if alo != set(range(108)): fail("ALO clauses missing for some vertex")
-# symmetry breaking units: must fix a genuine triangle to 3 distinct colors
+# symmetry units must sit on a real triangle
 if units:
     uverts = [u for u, c in units]; ucols = [c for u, c in units]
     if len(units) != 3 or len(set(uverts)) != 3 or len(set(ucols)) != 3:
@@ -147,7 +133,7 @@ print(f"OK CNF: {len(clauses)} clauses all whitelisted "
       f"(ALO 108, AMO {n_amo}, edge {n_edge} covering {len({(u,v) for u,v,_ in edge_color_seen})} edges, "
       f"units {len(units)} on a genuine triangle with distinct colors)")
 
-# --- 6. vertex-criticality witnesses ---
+# deletion witnesses
 with open(cert + "/vertex_deletion_witnesses.json") as f:
     wit = json.load(f)["witnesses"]
 keys = {w["deleted_vertex"] for w in wit}

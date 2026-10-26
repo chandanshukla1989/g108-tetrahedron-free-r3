@@ -1,6 +1,6 @@
 # A 108-vertex tetrahedron-free 6-chromatic unit-distance graph in R³
 
-**Chandan Shukla — October 2026**
+**Chandan Shukla, October 2026**
 
 This repository contains a unit-distance graph in three-dimensional Euclidean
 space with **108 vertices and 590 edges** that is **6-chromatic** (five colours
@@ -10,7 +10,7 @@ deleting any single vertex leaves a 5-colourable graph.
 
 All coordinates lie in Q(√5)³. Row `id Ax Bx Ay By Az Bz` in
 `coordinates_integer120.txt` encodes the coordinate `(A + B·√5)/120` per axis.
-`edges_zero_based.txt` lists every vertex pair at exact distance 1 — the edge
+`edges_zero_based.txt` lists every vertex pair at exact distance 1. The edge
 list is complete, verified in exact rational arithmetic over all 5,778 pairs.
 
 ## Files
