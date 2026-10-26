@@ -44,9 +44,18 @@ gcc -O2 external_checker/drat-trim.c -o drat-trim
 ./drat-trim proof/five.cnf proof/five.drup -t 180   # expect: s VERIFIED
 ```
 
-For context, the previously described tetrahedron-free 6-chromatic
-unit-distance construction in R³ has 21,217 vertices
-(Haugstrup 2025/2026, Geombinatorics XXXV). Global minimality is not claimed.
+## Context
+
+This continues the line of work on small 6-chromatic unit-distance graphs in
+R³ started by A. de Grey and A. Haugstrup, "Two small 6-chromatic
+unit-distance graphs in R³", Geombinatorics XXXI(3), 2022
+(https://geombina.uccs.edu/past-issues/volume-xxxi). Those graphs, like the
+other small constructions in this family, contain unit tetrahedra. The
+previously described tetrahedron-free 6-chromatic construction, due to
+Haugstrup, has 21,217 vertices (described Dec 2025,
+https://dustingmixon.wordpress.com/2021/02/01/polymath16-seventeenth-thread-declaring-victory/).
+The present graph extends that work with a tetrahedron-free example on 108
+vertices. Global minimality is not claimed.
 
 ## License
 
