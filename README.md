@@ -2,6 +2,8 @@
 
 **Chandan Shukla, October 2026**
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23653148.svg)](https://doi.org/10.5281/zenodo.23653148)
+
 This repository contains a unit-distance graph in three-dimensional Euclidean
 space with **108 vertices and 590 edges** that is **6-chromatic** (five colours
 are impossible) and **tetrahedron-free** (it contains no K₄), together with
