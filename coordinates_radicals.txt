@@ -1,0 +1,542 @@
+108 VERTICES IN R^3, EXACT ALGEBRAIC COORDINATES
+Each value is (A + B*sqrt(5))/120 from coordinates_integer120.txt, simplified.
+
+vertex 0:
+  x = 0
+  y = 1/2
+  z = -1/4 - 1/4*sqrt(5)
+
+vertex 1:
+  x = -1/4 - 1/4*sqrt(5)
+  y = 0
+  z = 1/2
+
+vertex 2:
+  x = 0
+  y = -1/2
+  z = 1/4 + 1/4*sqrt(5)
+
+vertex 3:
+  x = -1/2
+  y = -1/4 - 1/4*sqrt(5)
+  z = 0
+
+vertex 4:
+  x = 1/4 + 1/4*sqrt(5)
+  y = 0
+  z = 1/2
+
+vertex 5:
+  x = 0
+  y = -1/2
+  z = -1/4 - 1/4*sqrt(5)
+
+vertex 6:
+  x = 1/2
+  y = 1/4 + 1/4*sqrt(5)
+  z = 0
+
+vertex 7:
+  x = 1/4 + 1/4*sqrt(5)
+  y = 0
+  z = -1/2
+
+vertex 8:
+  x = 1/2
+  y = -1/4 - 1/4*sqrt(5)
+  z = 0
+
+vertex 9:
+  x = 0
+  y = 1/2
+  z = 1/4 + 1/4*sqrt(5)
+
+vertex 10:
+  x = -1/4 - 1/4*sqrt(5)
+  y = 0
+  z = -1/2
+
+vertex 11:
+  x = 1/4 - 3/20*sqrt(5)
+  y = 0
+  z = 1/2 - 1/5*sqrt(5)
+
+vertex 12:
+  x = -1/4 + 3/20*sqrt(5)
+  y = 0
+  z = 1/2 - 1/5*sqrt(5)
+
+vertex 13:
+  x = -1/2
+  y = 1/4 + 1/4*sqrt(5)
+  z = 0
+
+vertex 14:
+  x = 0
+  y = 1/2
+  z = 3/4 - 1/4*sqrt(5)
+
+vertex 15:
+  x = -1/4 + 1/4*sqrt(5)
+  y = 1/4 - 1/4*sqrt(5)
+  z = 1/4 - 1/4*sqrt(5)
+
+vertex 16:
+  x = 1/4 - 1/4*sqrt(5)
+  y = -1/4 + 1/4*sqrt(5)
+  z = 1/4 - 1/4*sqrt(5)
+
+vertex 17:
+  x = 3/8 - 1/8*sqrt(5)
+  y = -1/4
+  z = 1/8 - 1/8*sqrt(5)
+
+vertex 18:
+  x = 1/2 - 1/5*sqrt(5)
+  y = -1/4 + 3/20*sqrt(5)
+  z = 0
+
+vertex 19:
+  x = 0
+  y = 1/4 - 1/4*sqrt(5)
+  z = 0
+
+vertex 20:
+  x = 0
+  y = -1/4 + 1/4*sqrt(5)
+  z = 0
+
+vertex 21:
+  x = 1/4
+  y = 1/8 - 1/8*sqrt(5)
+  z = 3/8 - 1/8*sqrt(5)
+
+vertex 22:
+  x = -1/2 + 1/5*sqrt(5)
+  y = 1/4 - 3/20*sqrt(5)
+  z = 0
+
+vertex 23:
+  x = 0
+  y = -1/2
+  z = 3/4 - 1/4*sqrt(5)
+
+vertex 24:
+  x = 1/8 - 1/8*sqrt(5)
+  y = 3/8 - 1/8*sqrt(5)
+  z = 1/4
+
+vertex 25:
+  x = 3/8 - 3/8*sqrt(5)
+  y = 5/8 + 1/8*sqrt(5)
+  z = -1/4
+
+vertex 26:
+  x = 5/8 + 1/8*sqrt(5)
+  y = 1/4
+  z = 3/8 - 3/8*sqrt(5)
+
+vertex 27:
+  x = 0
+  y = 1/4 - 1/4*sqrt(5)
+  z = 1
+
+vertex 28:
+  x = 3/4
+  y = -1/8 + 1/8*sqrt(5)
+  z = 1/8 - 3/8*sqrt(5)
+
+vertex 29:
+  x = -1/4
+  y = 3/8 - 3/8*sqrt(5)
+  z = 5/8 + 1/8*sqrt(5)
+
+vertex 30:
+  x = 0
+  y = -1/4 + 1/4*sqrt(5)
+  z = 1
+
+vertex 31:
+  x = -1/8 + 1/8*sqrt(5)
+  y = 1/8 - 3/8*sqrt(5)
+  z = 3/4
+
+vertex 32:
+  x = -1/2
+  y = 3/4 - 1/4*sqrt(5)
+  z = 0
+
+vertex 33:
+  x = 5/8 + 1/8*sqrt(5)
+  y = -1/4
+  z = 3/8 - 3/8*sqrt(5)
+
+vertex 34:
+  x = 0
+  y = 0
+  z = 1/4 - 1/4*sqrt(5)
+
+vertex 35:
+  x = -1/4
+  y = 1/8 - 1/8*sqrt(5)
+  z = 3/8 - 1/8*sqrt(5)
+
+vertex 36:
+  x = 3/8 - 1/8*sqrt(5)
+  y = 1/4
+  z = 1/8 - 1/8*sqrt(5)
+
+vertex 37:
+  x = 3/4 - 1/4*sqrt(5)
+  y = 0
+  z = 1/2
+
+vertex 38:
+  x = 1/4 - 1/4*sqrt(5)
+  y = 1/4 - 1/4*sqrt(5)
+  z = 1/4 - 1/4*sqrt(5)
+
+vertex 39:
+  x = -1/4 + 1/4*sqrt(5)
+  y = -3/4 - 1/4*sqrt(5)
+  z = 1/4 - 1/4*sqrt(5)
+
+vertex 40:
+  x = -3/4 + 1/4*sqrt(5)
+  y = 0
+  z = 1/2
+
+vertex 41:
+  x = 1/2
+  y = -1/2
+  z = 1/4 - 1/4*sqrt(5)
+
+vertex 42:
+  x = -1/4 + 1/4*sqrt(5)
+  y = -1/4 + 1/4*sqrt(5)
+  z = 1/4 - 1/4*sqrt(5)
+
+vertex 43:
+  x = 1/2
+  y = 1/4 - 3/20*sqrt(5)
+  z = -1/5*sqrt(5)
+
+vertex 44:
+  x = -1/4 + 1/4*sqrt(5)
+  y = 1/2
+  z = 1/2
+
+vertex 45:
+  x = -1/2
+  y = 1/4 + 1/4*sqrt(5)
+  z = 1
+
+vertex 46:
+  x = 1/2
+  y = 1/4 + 1/4*sqrt(5)
+  z = 1
+
+vertex 47:
+  x = 1/2
+  y = -1/4 - 1/4*sqrt(5)
+  z = 1
+
+vertex 48:
+  x = -1/4 + 3/20*sqrt(5)
+  y = -1/5*sqrt(5)
+  z = 1/2
+
+vertex 49:
+  x = -1/4 - 1/4*sqrt(5)
+  y = 0
+  z = -1/2*sqrt(5)
+
+vertex 50:
+  x = 1/4 + 1/4*sqrt(5)
+  y = 0
+  z = -1/2*sqrt(5)
+
+vertex 51:
+  x = 1
+  y = -1/2
+  z = 3/4 - 1/4*sqrt(5)
+
+vertex 52:
+  x = 1/8 - 1/8*sqrt(5)
+  y = 3/8 - 1/8*sqrt(5)
+  z = 3/4
+
+vertex 53:
+  x = 1/2
+  y = 1/4 + 1/4*sqrt(5)
+  z = 1/2 - 1/2*sqrt(5)
+
+vertex 54:
+  x = 1
+  y = 1/2
+  z = 3/4 - 1/4*sqrt(5)
+
+vertex 55:
+  x = -1/2
+  y = -1/4 - 1/4*sqrt(5)
+  z = 1
+
+vertex 56:
+  x = 0
+  y = -1/4 - 1/4*sqrt(5)
+  z = 1/2
+
+vertex 57:
+  x = 3/8 + 1/8*sqrt(5)
+  y = 1/8 + 1/8*sqrt(5)
+  z = 1/4
+
+vertex 58:
+  x = 1/8 + 1/8*sqrt(5)
+  y = -1/4*sqrt(5)
+  z = 5/8 - 1/8*sqrt(5)
+
+vertex 59:
+  x = 1/2
+  y = 1/2
+  z = 1/4 - 1/4*sqrt(5)
+
+vertex 60:
+  x = 3/4 + 1/4*sqrt(5)
+  y = -1/4 + 1/4*sqrt(5)
+  z = 1/4 - 1/4*sqrt(5)
+
+vertex 61:
+  x = 1/4 - 1/4*sqrt(5)
+  y = 1/2
+  z = 1/2
+
+vertex 62:
+  x = -1/2
+  y = 0
+  z = -1/4 - 1/4*sqrt(5)
+
+vertex 63:
+  x = -1/4 - 1/4*sqrt(5)
+  y = 1
+  z = 1/2
+
+vertex 64:
+  x = -3/4 - 1/4*sqrt(5)
+  y = 1/4 - 1/4*sqrt(5)
+  z = 1/4 - 1/4*sqrt(5)
+
+vertex 65:
+  x = 1/2
+  y = -1/4 - 1/4*sqrt(5)
+  z = 1/2 - 1/2*sqrt(5)
+
+vertex 66:
+  x = 0
+  y = -1/2*sqrt(5)
+  z = 3/4 - 1/4*sqrt(5)
+
+vertex 67:
+  x = 3/4 - 1/4*sqrt(5)
+  y = 0
+  z = -1/2*sqrt(5)
+
+vertex 68:
+  x = -1/4 - 1/4*sqrt(5)
+  y = -1
+  z = 1/2
+
+vertex 69:
+  x = 0
+  y = -3/4 - 1/4*sqrt(5)
+  z = 0
+
+vertex 70:
+  x = -1/2
+  y = -1/2
+  z = 1/4 - 1/4*sqrt(5)
+
+vertex 71:
+  x = -1/2
+  y = -1/4 - 1/4*sqrt(5)
+  z = 1/2 - 1/2*sqrt(5)
+
+vertex 72:
+  x = -1/4 + 1/4*sqrt(5)
+  y = -1/2
+  z = 1/2
+
+vertex 73:
+  x = 1/2
+  y = 0
+  z = -1/4 - 1/4*sqrt(5)
+
+vertex 74:
+  x = 1/4 - 1/4*sqrt(5)
+  y = -3/4 - 1/4*sqrt(5)
+  z = 1/4 - 1/4*sqrt(5)
+
+vertex 75:
+  x = 1/2
+  y = 3/4 - 1/4*sqrt(5)
+  z = 0
+
+vertex 76:
+  x = -1/2
+  y = 1/2
+  z = 1/4 - 1/4*sqrt(5)
+
+vertex 77:
+  x = -1/4 - 1/4*sqrt(5)
+  y = 1/2 - 1/2*sqrt(5)
+  z = 1/2
+
+vertex 78:
+  x = -1/2
+  y = 0
+  z = 3/4 - 1/4*sqrt(5)
+
+vertex 79:
+  x = -1/12 - 1/12*sqrt(5)
+  y = 1/3 - 1/3*sqrt(5)
+  z = 1/2
+
+vertex 80:
+  x = 1/4 - 1/4*sqrt(5)
+  y = 1/2
+  z = -1/2
+
+vertex 81:
+  x = 1/4 + 1/4*sqrt(5)
+  y = 1
+  z = 1/2
+
+vertex 82:
+  x = -1/2*sqrt(5)
+  y = 3/4 - 1/4*sqrt(5)
+  z = 0
+
+vertex 83:
+  x = 3/4 + 1/4*sqrt(5)
+  y = 1/4 - 1/4*sqrt(5)
+  z = 1/4 - 1/4*sqrt(5)
+
+vertex 84:
+  x = -1/8 - 1/8*sqrt(5)
+  y = 1/2 - 1/4*sqrt(5)
+  z = 3/8 + 1/8*sqrt(5)
+
+vertex 85:
+  x = 1
+  y = 1/2
+  z = 1/4 + 1/4*sqrt(5)
+
+vertex 86:
+  x = 3/4 - 1/4*sqrt(5)
+  y = 1
+  z = 1/2
+
+vertex 87:
+  x = 1/2
+  y = 3/4 - 1/4*sqrt(5)
+  z = 1
+
+vertex 88:
+  x = -1/8 + 1/8*sqrt(5)
+  y = 1/8 - 3/8*sqrt(5)
+  z = 1/4
+
+vertex 89:
+  x = 3/8 - 1/8*sqrt(5)
+  y = 3/4
+  z = 1/8 - 1/8*sqrt(5)
+
+vertex 90:
+  x = -1/2
+  y = 3/4 - 1/4*sqrt(5)
+  z = 1
+
+vertex 91:
+  x = 1/4 + 1/4*sqrt(5)
+  y = 1/2 - 1/2*sqrt(5)
+  z = 1/2
+
+vertex 92:
+  x = 1 + 1/5*sqrt(5)
+  y = 1/2
+  z = 1/4 - 3/20*sqrt(5)
+
+vertex 93:
+  x = 1/4 + 3/20*sqrt(5)
+  y = -1/4 + 1/20*sqrt(5)
+  z = 1/4 - 1/4*sqrt(5)
+
+vertex 94:
+  x = 3/4 + 3/20*sqrt(5)
+  y = -1/5*sqrt(5)
+  z = 1/2
+
+vertex 95:
+  x = 1/2
+  y = 3/4 + 3/20*sqrt(5)
+  z = -1/5*sqrt(5)
+
+vertex 96:
+  x = 0
+  y = 3/4 + 1/4*sqrt(5)
+  z = 0
+
+vertex 97:
+  x = 1/4 - 3/20*sqrt(5)
+  y = -1/5*sqrt(5)
+  z = 1/2
+
+vertex 98:
+  x = -3/4
+  y = 1/8 - 1/8*sqrt(5)
+  z = 3/8 - 1/8*sqrt(5)
+
+vertex 99:
+  x = 0
+  y = -1/4 - 1/4*sqrt(5)
+  z = -1/2*sqrt(5)
+
+vertex 100:
+  x = 0
+  y = 0
+  z = 3/4 + 1/4*sqrt(5)
+
+vertex 101:
+  x = 1/4 - 1/4*sqrt(5)
+  y = -1/2
+  z = 1/2
+
+vertex 102:
+  x = 1/2
+  y = 0
+  z = 3/4 - 1/4*sqrt(5)
+
+vertex 103:
+  x = -1/2 - 1/5*sqrt(5)
+  y = -1/4 - 1/4*sqrt(5)
+  z = 1/2 - 1/10*sqrt(5)
+
+vertex 104:
+  x = 0
+  y = -1/4 - 3/20*sqrt(5)
+  z = -1/5*sqrt(5)
+
+vertex 105:
+  x = 1/8 + 1/40*sqrt(5)
+  y = -1/4 - 1/5*sqrt(5)
+  z = -1/8 + 1/8*sqrt(5)
+
+vertex 106:
+  x = 0
+  y = -3/4 - 1/4*sqrt(5)
+  z = 1
+
+vertex 107:
+  x = 1/4 + 1/4*sqrt(5)
+  y = -1/2 - 1/2*sqrt(5)
+  z = 1/2
